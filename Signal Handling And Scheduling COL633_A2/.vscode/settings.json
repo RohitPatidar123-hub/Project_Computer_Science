@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "fcntl.h": "c",
+        "__config": "c",
+        "__locale": "c",
+        "cstdlib": "c",
+        "memory_resource": "c",
+        "locale": "c",
+        "ostream": "c",
+        "system_error": "c",
+        "typeinfo": "c",
+        "version": "c"
+    }
+}
