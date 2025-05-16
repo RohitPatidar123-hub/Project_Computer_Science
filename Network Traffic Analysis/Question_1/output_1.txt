@@ -1,0 +1,538 @@
+Statistics for file: ../network_analysis_data1.csv
+
+Total number of flows: 171380
+
+Top 5 protocols:
+protocolName
+tcp_ip     122298
+udp_ip      48453
+icmp_ip       623
+igmp            4
+ip              2
+Name: count, dtype: int64
+
+Top 10 active source IPs:
+source
+192.168.5.122    30976
+192.168.2.107    11669
+192.168.2.113    11650
+192.168.4.121    11191
+192.168.1.104    10545
+192.168.2.109     9069
+192.168.2.106     8945
+192.168.2.112     8430
+192.168.3.115     7569
+192.168.1.103     6999
+Name: count, dtype: int64
+
+Top 10 active destination IPs:
+destination
+198.164.30.2      25581
+192.168.5.122     18296
+203.73.24.75       8602
+67.220.214.50      8482
+208.116.9.82       3785
+4.71.173.89        3581
+74.63.11.179       3061
+67.15.184.7        2951
+67.205.110.248     2371
+192.168.2.255      1587
+Name: count, dtype: int64
+
+Accurate average packet size (bytes/packet): 752.2405202549941
+
+Most common source-destination pair: ('192.168.5.122', '198.164.30.2') with count: 25581
+
+IPs communicating every hour: 198.164.30.2, 192.168.2.109, 192.168.4.255, 192.168.4.121, 0.0.0.0, 192.168.2.112, 192.168.4.119, 131.202.240.218, 192.168.5.122, 192.168.3.117, 192.168.2.108, 192.168.3.114, 192.168.1.103, 192.168.4.120, 192.168.3.116, 192.168.2.106, 192.168.3.115, 192.168.4.118, 192.168.1.102, 192.168.2.113, 192.168.1.101, 192.168.2.111, 192.168.2.255
+
+
+--- Spike Detection for Time Window: 1 hour ---
+
+Traffic Spikes Detected (Mean + 2*Std):
+startDateTime
+2010-06-14 10:00:00    16770
+2010-06-14 11:00:00    15975
+Freq: h, dtype: int64
+
+Traffic Spikes Detected (Z-Score > 2):
+startDateTime
+2010-06-14 10:00:00    16770
+2010-06-14 11:00:00    15975
+Freq: h, dtype: int64
+
+Traffic Spikes Detected (Rolling Mean + 2*Std):
+Series([], Freq: h, dtype: int64)
+
+Traffic Spikes Detected (95th Percentile):
+startDateTime
+2010-06-14 10:00:00    16770
+2010-06-14 11:00:00    15975
+Freq: h, dtype: int64
+
+Spike detection graph for 1 hour saved as spike_detection_network_analysis_data1_1_hour.png
+
+Variance of per-flow average packet sizes: 72597.09215630776
+
+Note: Low variance suggests consistent packet sizes across flows.
+
+--------------------------------------------------
+
+Statistics for file: ../network_analysis_data2.csv
+
+Total number of flows: 133193
+
+Top 5 protocols:
+protocolName
+tcp_ip     95117
+udp_ip     37966
+icmp_ip       81
+igmp          15
+ip            13
+Name: count, dtype: int64
+
+Top 10 active source IPs:
+source
+192.168.5.122    24033
+192.168.1.104     9455
+192.168.2.109     8883
+192.168.1.101     7651
+192.168.2.110     7529
+192.168.4.120     6583
+192.168.2.113     5765
+192.168.4.118     5578
+192.168.3.116     5211
+192.168.2.106     4994
+Name: count, dtype: int64
+
+Top 10 active destination IPs:
+destination
+192.168.5.122     22759
+198.164.30.2      20951
+203.73.24.75       9960
+62.116.163.221     1838
+192.168.2.255      1582
+67.220.214.50      1562
+69.84.133.138      1557
+208.116.9.82       1486
+91.195.240.121     1413
+74.55.1.4          1179
+Name: count, dtype: int64
+
+Accurate average packet size (bytes/packet): 750.6914339469795
+
+Most common source-destination pair: ('192.168.5.122', '198.164.30.2') with count: 20951
+
+IPs communicating every hour: None
+
+
+--- Spike Detection for Time Window: 1 hour ---
+
+Traffic Spikes Detected (Mean + 2*Std):
+startDateTime
+2010-06-12 06:00:00    20166
+Freq: h, dtype: int64
+
+Traffic Spikes Detected (Z-Score > 2):
+startDateTime
+2010-06-12 06:00:00    20166
+Freq: h, dtype: int64
+
+Traffic Spikes Detected (Rolling Mean + 2*Std):
+Series([], Freq: h, dtype: int64)
+
+Traffic Spikes Detected (95th Percentile):
+startDateTime
+2010-06-12 05:00:00     9986
+2010-06-12 06:00:00    20166
+Freq: h, dtype: int64
+
+Spike detection graph for 1 hour saved as spike_detection_network_analysis_data2_1_hour.png
+
+Variance of per-flow average packet sizes: 69280.24247763086
+
+Note: Low variance suggests consistent packet sizes across flows.
+
+--------------------------------------------------
+
+Statistics for file: ../network_analysis_data3.csv
+
+Total number of flows: 275528
+
+Top 5 protocols:
+protocolName
+tcp_ip     221026
+udp_ip      54076
+icmp_ip       374
+igmp           28
+ip             24
+Name: count, dtype: int64
+
+Top 10 active source IPs:
+source
+192.168.2.106    38390
+192.168.5.122    37698
+192.168.1.105    35806
+192.168.2.110    29718
+192.168.3.116    18004
+192.168.4.118    15198
+192.168.2.112    13936
+192.168.1.101    11422
+192.168.4.119     8716
+192.168.4.120     8510
+Name: count, dtype: int64
+
+Top 10 active destination IPs:
+destination
+198.164.30.2      32812
+67.220.214.50     28962
+192.168.5.122     27078
+125.6.176.113     16434
+203.73.24.75      16186
+125.6.164.51       6932
+67.111.12.102      6480
+82.98.86.183       5054
+192.168.2.255      3192
+212.227.111.29     2708
+Name: count, dtype: int64
+
+Accurate average packet size (bytes/packet): 726.9582135018807
+
+Most common source-destination pair: ('192.168.5.122', '198.164.30.2') with count: 32812
+
+IPs communicating every hour: 192.168.2.107, 192.168.4.255, 131.202.240.218, 192.168.1.104, 192.168.4.118, 192.168.2.113, 192.168.1.102, 192.168.5.122, 192.168.3.116, 192.168.2.106, 192.168.1.101, 192.168.1.255, 192.168.2.111, 192.168.2.108, 192.168.4.119, 192.168.2.255, 192.168.2.110
+
+
+--- Spike Detection for Time Window: 1 hour ---
+
+Traffic Spikes Detected (Mean + 2*Std):
+startDateTime
+2010-06-13 10:00:00    67952
+2010-06-13 11:00:00    45480
+Freq: h, dtype: int64
+
+Traffic Spikes Detected (Z-Score > 2):
+startDateTime
+2010-06-13 10:00:00    67952
+2010-06-13 11:00:00    45480
+Freq: h, dtype: int64
+
+Traffic Spikes Detected (Rolling Mean + 2*Std):
+Series([], Freq: h, dtype: int64)
+
+Traffic Spikes Detected (95th Percentile):
+startDateTime
+2010-06-13 10:00:00    67952
+2010-06-13 11:00:00    45480
+Freq: h, dtype: int64
+
+Spike detection graph for 1 hour saved as spike_detection_network_analysis_data3_1_hour.png
+
+Variance of per-flow average packet sizes: 73848.58327548658
+
+Note: Low variance suggests consistent packet sizes across flows.
+
+--------------------------------------------------
+
+Statistics for file: ../network_analysis_data4.csv
+
+Total number of flows: 397595
+
+Top 5 protocols:
+protocolName
+tcp_ip     329378
+udp_ip      67658
+icmp_ip       547
+igmp            6
+ip              6
+Name: count, dtype: int64
+
+Top 10 active source IPs:
+source
+192.168.5.122    50168
+192.168.3.116    39758
+192.168.4.118    32865
+192.168.2.111    28647
+192.168.1.101    22501
+192.168.2.107    21471
+192.168.2.112    19481
+192.168.2.108    18168
+192.168.2.113    17549
+192.168.3.114    16542
+Name: count, dtype: int64
+
+Top 10 active destination IPs:
+destination
+198.164.30.2       44214
+125.6.164.51       36360
+192.168.5.122      29496
+203.73.24.75       22499
+202.210.143.140    13898
+67.111.12.102      12806
+82.98.86.183        9264
+67.220.214.50       6860
+204.236.225.39      4459
+125.6.164.41        3845
+Name: count, dtype: int64
+
+Accurate average packet size (bytes/packet): 756.8959143165649
+
+Most common source-destination pair: ('192.168.5.122', '198.164.30.2') with count: 44214
+
+IPs communicating every hour: 198.164.30.2, 192.168.2.109, 192.168.4.255, 192.168.1.104, 192.168.4.121, 192.168.2.112, 91.190.170.71, 192.168.4.119, 142.166.14.78, 192.168.2.107, 192.168.5.122, 208.66.205.221, 97.74.104.49, 192.168.3.117, 192.168.2.108, 67.212.184.66, 192.168.3.114, 192.168.1.103, 192.168.3.116, 192.168.2.106, 192.168.3.115, 192.168.4.118, 192.168.1.102, 192.168.2.113, 192.168.1.101, 192.168.1.105, 192.168.2.111, 192.168.2.255, 192.168.2.110
+
+
+--- Spike Detection for Time Window: 1 hour ---
+
+Traffic Spikes Detected (Mean + 2*Std):
+Series([], Freq: h, dtype: int64)
+
+Traffic Spikes Detected (Z-Score > 2):
+Series([], Freq: h, dtype: int64)
+
+Traffic Spikes Detected (Rolling Mean + 2*Std):
+Series([], Freq: h, dtype: int64)
+
+Traffic Spikes Detected (95th Percentile):
+startDateTime
+2010-06-17 07:00:00    44692
+2010-06-17 09:00:00    46246
+dtype: int64
+
+Spike detection graph for 1 hour saved as spike_detection_network_analysis_data4_1_hour.png
+
+Variance of per-flow average packet sizes: 73155.41509966827
+
+Note: Low variance suggests consistent packet sizes across flows.
+
+--------------------------------------------------
+
+Statistics for file: ../network_analysis_data5.csv
+
+Total number of flows: 571698
+
+Top 5 protocols:
+protocolName
+tcp_ip     441563
+udp_ip     124023
+icmp_ip      6073
+igmp           20
+ip             19
+Name: count, dtype: int64
+
+Top 10 active source IPs:
+source
+192.168.2.107    82964
+192.168.2.109    58261
+192.168.5.122    56915
+192.168.4.118    49861
+192.168.1.101    47933
+192.168.1.105    40636
+192.168.4.119    39843
+192.168.2.112    31307
+192.168.1.102    27068
+192.168.1.103    18005
+Name: count, dtype: int64
+
+Top 10 active destination IPs:
+destination
+203.73.24.75       80664
+192.168.5.122      68050
+198.164.30.2       49347
+95.211.98.12       25095
+202.210.143.140    19307
+95.211.98.14       12975
+82.98.86.183        9961
+72.32.84.3          6112
+192.168.2.107       6098
+91.190.170.71       5609
+Name: count, dtype: int64
+
+Accurate average packet size (bytes/packet): 707.0657094385142
+
+Most common source-destination pair: ('192.168.5.122', '198.164.30.2') with count: 49347
+
+IPs communicating every hour: 192.168.2.107
+
+
+--- Spike Detection for Time Window: 1 hour ---
+
+Traffic Spikes Detected (Mean + 2*Std):
+startDateTime
+2010-06-15 16:00:00    63821
+Freq: h, dtype: int64
+
+Traffic Spikes Detected (Z-Score > 2):
+startDateTime
+2010-06-15 16:00:00    63821
+Freq: h, dtype: int64
+
+Traffic Spikes Detected (Rolling Mean + 2*Std):
+Series([], Freq: h, dtype: int64)
+
+Traffic Spikes Detected (95th Percentile):
+startDateTime
+2010-06-15 09:00:00    45234
+2010-06-15 16:00:00    63821
+dtype: int64
+
+Spike detection graph for 1 hour saved as spike_detection_network_analysis_data5_1_hour.png
+
+Variance of per-flow average packet sizes: 67303.12341332049
+
+Note: Low variance suggests consistent packet sizes across flows.
+
+--------------------------------------------------
+
+Statistics for file: ../network_analysis_data6.csv
+
+Total number of flows: 522263
+
+Top 5 protocols:
+protocolName
+tcp_ip     434674
+udp_ip      87070
+icmp_ip       513
+igmp            4
+ip              2
+Name: count, dtype: int64
+
+Top 10 active source IPs:
+source
+192.168.2.107    88643
+192.168.5.122    68477
+192.168.4.121    54319
+192.168.3.115    48736
+192.168.1.104    32412
+192.168.4.118    28209
+192.168.2.110    26096
+192.168.2.113    22135
+192.168.1.101    20972
+192.168.3.116    20440
+Name: count, dtype: int64
+
+Top 10 active destination IPs:
+destination
+125.6.164.51      62409
+198.164.30.2      59504
+203.73.24.75      55289
+192.168.5.122     33758
+209.112.44.10     21824
+64.38.193.26      20014
+62.140.213.243    15047
+72.21.81.133       7306
+195.189.244.14     5488
+125.6.164.41       5424
+Name: count, dtype: int64
+
+Accurate average packet size (bytes/packet): 760.7146879144266
+
+Most common source-destination pair: ('192.168.5.122', '198.164.30.2') with count: 59504
+
+IPs communicating every hour: 198.164.30.2, 192.168.2.109, 192.168.4.255, 192.168.3.115, 192.168.4.118, 192.168.2.113, 192.168.5.122, 192.168.2.112, 208.73.210.28, 192.168.3.116, 192.168.2.106, 74.86.158.244, 192.168.4.119, 192.168.2.108, 192.168.2.255, 192.168.2.110, 67.212.184.66
+
+
+--- Spike Detection for Time Window: 1 hour ---
+
+Traffic Spikes Detected (Mean + 2*Std):
+startDateTime
+2010-06-16 10:00:00    40588
+Freq: h, dtype: int64
+
+Traffic Spikes Detected (Z-Score > 2):
+startDateTime
+2010-06-16 10:00:00    40588
+Freq: h, dtype: int64
+
+Traffic Spikes Detected (Rolling Mean + 2*Std):
+Series([], Freq: h, dtype: int64)
+
+Traffic Spikes Detected (95th Percentile):
+startDateTime
+2010-06-16 10:00:00    40588
+2010-06-16 17:00:00    33063
+dtype: int64
+
+Spike detection graph for 1 hour saved as spike_detection_network_analysis_data6_1_hour.png
+
+Variance of per-flow average packet sizes: 70480.81400291393
+
+Note: Low variance suggests consistent packet sizes across flows.
+
+--------------------------------------------------
+
+
+#################### COMBINED FILES ####################
+Statistics for file: All Combined Files
+
+Total number of flows: 2071657
+
+Top 5 protocols:
+protocolName
+tcp_ip     1644056
+udp_ip      419246
+icmp_ip       8211
+igmp            77
+ip              66
+Name: count, dtype: int64
+
+Top 10 active source IPs:
+source
+192.168.5.122    268267
+192.168.2.107    208379
+192.168.4.118    135374
+192.168.1.101    116292
+192.168.4.121    105454
+192.168.1.105    101359
+192.168.2.109     99183
+192.168.3.116     97241
+192.168.2.110     90658
+192.168.3.115     88915
+Name: count, dtype: int64
+
+Top 10 active destination IPs:
+destination
+198.164.30.2       232409
+192.168.5.122      199437
+203.73.24.75       193200
+125.6.164.51       106826
+67.220.214.50       49298
+202.210.143.140     36189
+82.98.86.183        25214
+95.211.98.12        25095
+209.112.44.10       21824
+62.140.213.243      20509
+Name: count, dtype: int64
+
+Accurate average packet size (bytes/packet): 736.9248946259129
+
+Most common source-destination pair: ('192.168.5.122', '198.164.30.2') with count: 232409
+
+IPs communicating every hour: None
+
+
+--- Spike Detection for Time Window: 1 hour ---
+
+Traffic Spikes Detected (Mean + 2*Std):
+startDateTime
+2010-06-13 10:00:00    67952
+2010-06-13 11:00:00    45480
+2010-06-15 09:00:00    45234
+2010-06-15 12:00:00    44000
+2010-06-15 16:00:00    63821
+2010-06-16 10:00:00    40588
+2010-06-17 05:00:00    42437
+2010-06-17 06:00:00    41241
+2010-06-17 07:00:00    44692
+2010-06-17 09:00:00    46246
+dtype: int64
+
+
+Spike detection graph for 1 hour saved as spike_detection_All Combined Files_1_hour.png
+
+Variance of per-flow average packet sizes: 70795.81223939048
+
+Note: Low variance suggests consistent packet sizes across flows.
+
+--------------------------------------------------
+
+Remark: All outputs above correspond to Question 1 of the assignment.

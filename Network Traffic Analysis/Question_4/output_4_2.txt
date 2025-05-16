@@ -1,0 +1,343 @@
+=== Combined Payload Feature Extraction Report ===
+
+--- Processing file: ../network_analysis_data1.csv ---
+
+Payload Length Statistics:
+Mean: 60.91, Median: 51.00, Std Dev: 90.34
+
+Payload Entropy Statistics:
+Mean: 4.01, Median: 4.03, Std Dev: 0.75
+
+Entropy Threshold (Mean + 2σ): 5.51
+
+Number of payloads with high entropy: 404
+
+Example Character Frequency Distribution (First Payload):
+{' ': 2, 'e': 2, 'Q': 1, 'A': 2, '1': 2, 'l': 1, 'U': 2, 'r': 2, 's': 3, 'n': 1, 'I': 1, 'T': 3, 'u': 2, 'P': 1, 'R': 1, 'S': 4, 'E': 1, '2': 2}
+
+Number of payloads flagged with suspicious keywords: 2447
+
+=== Machine Learning / Clustering Analysis ===
+Isolation Forest detected 818 anomalous payloads.
+K-Means Clustering:
+Cluster counts:
+cluster
+2    42083
+0    40650
+1     1846
+
+Payloads flagged from small clusters (potential anomalies): 1846
+
+=== Signature-Based Detection for C&C Patterns ===
+Number of payloads flagged by malicious signature matching: 2447
+
+=== Flagged Source IPs from Anomalous Payloads ===
+Isolation Forest flagged source IPs:
+['192.168.1.103' '192.168.4.118' '192.168.4.121' '192.168.2.111'
+ '192.168.3.114' '192.168.2.112' '192.168.4.119' '192.168.1.105'
+ '192.168.3.115' '192.168.3.117' '192.168.1.102' '192.168.2.109'
+ '192.168.3.116' '192.168.1.104' '192.168.1.101' '192.168.5.122'
+ '192.168.2.107' '192.168.4.120' '192.168.2.108' '192.168.2.113'
+ '192.168.2.110' '67.195.23.154' '67.195.23.152' '68.142.206.144'
+ '68.142.206.42' '98.139.91.72' '98.139.91.75' '98.139.91.71'
+ '67.195.23.155' '67.195.23.156' '98.137.26.79' '67.195.8.62'
+ '98.139.91.84' '67.195.9.84' '64.12.207.164' '192.168.2.106'
+ '192.168.5.123' '131.202.243.90' '131.202.243.91' '216.104.15.130'
+ '131.202.243.84' '131.202.240.218']
+K-Means Clustering flagged source IPs:
+['192.168.1.103' '192.168.4.118' '192.168.4.121' '192.168.3.116'
+ '192.168.4.120' '192.168.2.109' '192.168.2.107' '192.168.2.106'
+ '192.168.2.111' '192.168.1.101' '192.168.3.114' '192.168.2.112'
+ '192.168.2.113' '192.168.4.119' '192.168.1.102' '192.168.1.105'
+ '192.168.3.115' '192.168.3.117' '192.168.2.110' '192.168.2.108'
+ '192.168.1.104' '192.168.5.122' '67.195.23.154' '67.195.23.152'
+ '68.142.206.144' '68.142.206.42' '98.139.91.72' '98.139.91.75'
+ '98.139.91.71' '67.195.23.155' '67.195.23.156' '98.137.26.79'
+ '67.195.8.62' '98.139.91.84' '67.195.9.84' '64.12.207.164'
+ '131.202.240.209' '192.168.5.123' '131.202.243.90' '131.202.243.91'
+ '216.104.15.130' '131.202.243.84' '131.202.240.218' '66.249.67.236'
+ '142.166.115.14' '192.168.5.124' '78.72.153.169']
+=== Encrypted Traffic Analysis (Payload Features) ===
+Encrypted traffic (entropy >= 7.5) detected: 0
+Abnormal encrypted payloads flagged: 0
+
+=== Encrypted Traffic Analysis (Total Destination Bytes) ===
+Encrypted traffic anomalies based on totalDestinationBytes detected: 65
+
+
+======================================================================
+
+--- Processing file: ../network_analysis_data2.csv ---
+
+Payload Length Statistics:
+Mean: 42.64, Median: 40.00, Std Dev: 23.77
+
+Payload Entropy Statistics:
+Mean: 3.93, Median: 3.95, Std Dev: 0.66
+
+Entropy Threshold (Mean + 2σ): 5.25
+
+Number of payloads with high entropy: 132
+
+Example Character Frequency Distribution (First Payload):
+{'h': 1, '-': 2, 'l': 1, 'i': 5, 'a': 7, 'd': 4, 's': 1, 'g': 3, 'G': 1, 'T': 1, 'c': 4, 't': 5, 'u': 4, ' ': 1, '/': 5, 'E': 1, 'e': 5, 'p': 1, 'r': 2, 'n': 4, 'm': 2, 'o': 4}
+
+Number of payloads flagged with suspicious keywords: 374
+
+=== Machine Learning / Clustering Analysis ===
+Isolation Forest detected 499 anomalous payloads.
+K-Means Clustering:
+Cluster counts:
+cluster
+0    35330
+1    33328
+2     1382
+
+Payloads flagged from small clusters (potential anomalies): 1382
+
+=== Signature-Based Detection for C&C Patterns ===
+Number of payloads flagged by malicious signature matching: 374
+
+=== Flagged Source IPs from Anomalous Payloads ===
+Isolation Forest flagged source IPs:
+['192.168.5.122' '192.168.4.120' '192.168.2.109' '192.168.4.119'
+ '192.168.1.104' '192.168.1.101' '192.168.2.107' '192.168.3.117'
+ '192.168.3.115' '192.168.1.105' '192.168.2.112' '192.168.4.121'
+ '192.168.2.111' '192.168.3.116' '192.168.2.113' '192.168.1.102'
+ '192.168.1.103' '192.168.2.106' '0.0.0.0' '169.254.184.13']
+K-Means Clustering flagged source IPs:
+['192.168.5.122' '192.168.1.104' '192.168.2.110' '192.168.4.120'
+ '192.168.2.109' '192.168.4.119' '192.168.4.118' '192.168.2.106'
+ '192.168.2.113' '192.168.3.115' '192.168.1.103' '192.168.2.108'
+ '192.168.1.101' '192.168.2.112' '192.168.2.111' '192.168.3.114'
+ '192.168.1.105' '192.168.3.116' '192.168.1.102' '192.168.3.117']
+=== Encrypted Traffic Analysis (Payload Features) ===
+Encrypted traffic (entropy >= 7.5) detected: 0
+Abnormal encrypted payloads flagged: 0
+
+=== Encrypted Traffic Analysis (Total Destination Bytes) ===
+Encrypted traffic anomalies based on totalDestinationBytes detected: 0
+
+
+======================================================================
+
+--- Processing file: ../network_analysis_data3.csv ---
+
+Payload Length Statistics:
+Mean: 46.33, Median: 55.00, Std Dev: 24.21
+
+Payload Entropy Statistics:
+Mean: 3.97, Median: 4.19, Std Dev: 0.74
+
+Entropy Threshold (Mean + 2σ): 5.46
+
+Number of payloads with high entropy: 6
+
+Example Character Frequency Distribution (First Payload):
+{' ': 2, 'F': 9, 'A': 10, 'P': 2, 'C': 9, 'N': 1, 'B': 2, 'D': 5, 'q': 1, 'E': 9}
+
+Number of payloads flagged with suspicious keywords: 908
+
+=== Machine Learning / Clustering Analysis ===
+Isolation Forest detected 1236 anomalous payloads.
+K-Means Clustering:
+Cluster counts:
+cluster
+0    70328
+1    50624
+2     2652
+
+Payloads flagged from small clusters (potential anomalies): 2652
+
+=== Signature-Based Detection for C&C Patterns ===
+Number of payloads flagged by malicious signature matching: 908
+
+=== Flagged Source IPs from Anomalous Payloads ===
+Isolation Forest flagged source IPs:
+['192.168.5.122' '192.168.4.121' '192.168.4.120' '192.168.2.106'
+ '192.168.1.103' '192.168.1.101' '192.168.1.102' '192.168.4.118'
+ '192.168.2.107' '192.168.3.116' '192.168.2.112' '0.0.0.0' '192.168.2.110'
+ '192.168.1.105' '192.168.2.111' '192.168.3.115' '192.168.3.114'
+ '192.168.4.119' '142.167.88.44']
+K-Means Clustering flagged source IPs:
+['192.168.5.122' '192.168.4.120' '192.168.1.103' '192.168.3.116'
+ '192.168.4.118' '192.168.2.112' '192.168.1.105' '192.168.2.106'
+ '192.168.1.101' '192.168.3.115' '192.168.2.107' '192.168.2.110'
+ '192.168.1.102' '192.168.3.117' '192.168.2.111' '192.168.3.114'
+ '192.168.2.109' '192.168.4.121' '192.168.4.119' '192.168.2.113']
+=== Encrypted Traffic Analysis (Payload Features) ===
+Encrypted traffic (entropy >= 7.5) detected: 0
+Abnormal encrypted payloads flagged: 0
+
+=== Encrypted Traffic Analysis (Total Destination Bytes) ===
+Encrypted traffic anomalies based on totalDestinationBytes detected: 6
+
+
+======================================================================
+
+--- Processing file: ../network_analysis_data4.csv ---
+
+Payload Length Statistics:
+Mean: 98.26, Median: 60.00, Std Dev: 134.07
+
+Payload Entropy Statistics:
+Mean: 4.31, Median: 4.55, Std Dev: 0.70
+
+Entropy Threshold (Mean + 2σ): 5.71
+
+Number of payloads with high entropy: 1383
+
+Example Character Frequency Distribution (First Payload):
+{'e': 1, 'o': 3, 'h': 1, '1': 1, 'a': 3, 'd': 2, 'n': 3, 'c': 1, 's': 2, 'b': 1, ')': 2, 't': 1, 'f': 1, '-': 2, 'y': 4}
+
+Number of payloads flagged with suspicious keywords: 858
+
+=== Machine Learning / Clustering Analysis ===
+Isolation Forest detected 1876 anomalous payloads.
+K-Means Clustering:
+Cluster counts:
+cluster
+0    152340
+2     30363
+1      5114
+
+Payloads flagged from small clusters (potential anomalies): 5114
+
+=== Signature-Based Detection for C&C Patterns ===
+Number of payloads flagged by malicious signature matching: 858
+
+=== Flagged Source IPs from Anomalous Payloads ===
+Isolation Forest flagged source IPs:
+['192.168.2.107' '192.168.2.112' '192.168.4.120' '192.168.4.121'
+ '192.168.5.122' '192.168.1.103' '192.168.3.116' '192.168.4.118'
+ '192.168.2.106' '192.168.1.101' '192.168.3.117' '192.168.2.110'
+ '192.168.3.115' '192.168.1.104' '192.168.2.109' '192.168.2.111'
+ '192.168.1.102' '192.168.4.119' '192.168.3.114' '192.168.2.113'
+ '192.168.2.108' '192.168.1.105']
+K-Means Clustering flagged source IPs:
+['192.168.4.118' '192.168.5.123' '192.168.2.107' '192.168.2.106'
+ '192.168.5.122' '192.168.2.112' '192.168.4.120' '192.168.4.121'
+ '192.168.1.103' '192.168.3.116' '192.168.2.108' '192.168.2.109'
+ '192.168.1.101' '192.168.3.117' '192.168.2.110' '192.168.3.115'
+ '192.168.2.111' '192.168.1.104' '192.168.1.102' '192.168.4.119'
+ '192.168.3.114' '192.168.2.113' '192.168.1.105' '210.172.144.10']
+=== Encrypted Traffic Analysis (Payload Features) ===
+Encrypted traffic (entropy >= 7.5) detected: 0
+Abnormal encrypted payloads flagged: 0
+
+=== Encrypted Traffic Analysis (Total Destination Bytes) ===
+Encrypted traffic anomalies based on totalDestinationBytes detected: 0
+
+
+======================================================================
+
+--- Processing file: ../network_analysis_data5.csv ---
+
+Payload Length Statistics:
+Mean: 205.83, Median: 69.00, Std Dev: 302.62
+
+Payload Entropy Statistics:
+Mean: 4.15, Median: 4.39, Std Dev: 0.72
+
+Entropy Threshold (Mean + 2σ): 5.60
+
+Number of payloads with high entropy: 1838
+
+Example Character Frequency Distribution (First Payload):
+{'s': 1, 'P': 8, 'N': 1, 'R': 4, ';': 1, 'G': 1, '%': 2, 'T': 6, '*': 2, '3': 2, 'U': 2, '\\': 4, 't': 1, 'C': 27, 'f': 1, 'M': 4, ' ': 5, 'F': 25, 'O': 7, 'V': 2, 'K': 1, 'L': 5, 'B': 11, 'D': 12, 'E': 28, '2': 1, 'H': 3, '!': 2, 'A': 28, '1': 2, 'r': 1, 'I': 2, 'S': 8, 'W': 3, 'q': 2}
+
+Number of payloads flagged with suspicious keywords: 17743
+
+=== Machine Learning / Clustering Analysis ===
+Isolation Forest detected 3020 anomalous payloads.
+K-Means Clustering:
+Cluster counts:
+cluster
+2    221374
+1     49275
+0     31397
+
+Payloads flagged from small clusters (potential anomalies): 0
+
+=== Signature-Based Detection for C&C Patterns ===
+Number of payloads flagged by malicious signature matching: 17743
+
+=== Flagged Source IPs from Anomalous Payloads ===
+Isolation Forest flagged source IPs:
+['192.168.2.107' '192.168.1.101' '192.168.4.121' '192.168.5.122'
+ '192.168.3.114' '192.168.4.120' '192.168.2.113' '192.168.2.106'
+ '192.168.4.119' '192.168.2.109' '192.168.2.112' '192.168.4.118'
+ '192.168.3.115' '192.168.3.116' '192.168.2.110' '192.168.1.104'
+ '192.168.2.108' '192.168.1.103' '192.168.1.102' '118.172.37.104'
+ '192.168.2.111' '192.168.1.105' '88.180.220.214' '189.119.209.45'
+ '109.111.134.19' '209.85.212.54' '65.55.34.12' '205.188.105.146'
+ '142.166.115.13' '131.202.243.84' '131.202.243.91' '131.202.243.90']
+K-Means Clustering flagged source IPs:
+[]
+=== Encrypted Traffic Analysis (Payload Features) ===
+Encrypted traffic (entropy >= 7.5) detected: 0
+Abnormal encrypted payloads flagged: 0
+
+=== Encrypted Traffic Analysis (Total Destination Bytes) ===
+Encrypted traffic anomalies based on totalDestinationBytes detected: 1
+
+
+======================================================================
+
+--- Processing file: ../network_analysis_data6.csv ---
+
+Payload Length Statistics:
+Mean: 87.40, Median: 51.00, Std Dev: 138.06
+
+Payload Entropy Statistics:
+Mean: 4.18, Median: 4.35, Std Dev: 0.70
+
+Entropy Threshold (Mean + 2σ): 5.57
+
+Number of payloads with high entropy: 1710
+
+Example Character Frequency Distribution (First Payload):
+{'l': 7, 'h': 3, '-': 8, 'i': 20, 'a': 19, 'd': 18, 's': 4, 'g': 3, '0': 2, '$': 1, '%': 1, 'c': 22, 't': 11, 'u': 5, '#': 1, 'f': 4, 'v': 1, 'y': 2, ' ': 1, 'w': 19, '2': 2, 'z': 3, '"': 1, 'e': 18, 'p': 1, '!': 20, 'k': 4, 'j': 1, 'r': 1, 'n': 11, 'm': 31, 'b': 8, 'x': 3, 'o': 18}
+
+Number of payloads flagged with suspicious keywords: 1202
+
+=== Machine Learning / Clustering Analysis ===
+Isolation Forest detected 2015 anomalous payloads.
+K-Means Clustering:
+Cluster counts:
+cluster
+2    185010
+0     15970
+1      4540
+
+Payloads flagged from small clusters (potential anomalies): 4540
+
+=== Signature-Based Detection for C&C Patterns ===
+Number of payloads flagged by malicious signature matching: 1202
+
+=== Flagged Source IPs from Anomalous Payloads ===
+Isolation Forest flagged source IPs:
+['192.168.3.114' '192.168.1.104' '192.168.2.111' '192.168.1.101'
+ '192.168.5.122' '192.168.2.107' '192.168.4.121' '192.168.4.118'
+ '192.168.2.106' '192.168.1.102' '192.168.3.116' '192.168.1.105'
+ '192.168.3.115' '192.168.2.112' '192.168.4.119' '192.168.2.110'
+ '192.168.2.108' '192.168.1.103' '192.168.2.109' '192.168.5.123'
+ '192.168.4.120' '192.168.2.113' '65.55.34.84' '192.168.3.117'
+ '205.188.105.145' '64.12.78.142' '209.85.212.54']
+K-Means Clustering flagged source IPs:
+['192.168.4.118' '192.168.3.114' '192.168.1.104' '192.168.2.111'
+ '192.168.3.116' '192.168.1.101' '192.168.3.115' '192.168.2.107'
+ '192.168.2.110' '192.168.4.120' '192.168.1.102' '192.168.4.119'
+ '192.168.2.112' '192.168.4.121' '192.168.2.106' '192.168.2.108'
+ '192.168.1.105' '192.168.5.122' '192.168.1.103' '192.168.2.113'
+ '192.168.2.109' '192.168.5.123' '65.55.34.84' '205.188.105.145'
+ '64.12.78.142' '209.85.212.54' '192.168.3.117']
+=== Encrypted Traffic Analysis (Payload Features) ===
+Encrypted traffic (entropy >= 7.5) detected: 0
+Abnormal encrypted payloads flagged: 0
+
+=== Encrypted Traffic Analysis (Total Destination Bytes) ===
+Encrypted traffic anomalies based on totalDestinationBytes detected: 0
+
+
+======================================================================
