@@ -1,0 +1,205 @@
+=== Combined Payload Feature Extraction Report ===
+
+--- Processing file: ../network_analysis_data1.csv ---
+
+Payload Length Statistics:
+Mean: 60.91, Median: 51.00, Std Dev: 90.34
+
+Payload Entropy Statistics:
+Mean: 4.01, Median: 4.03, Std Dev: 0.75
+
+Entropy Threshold (Mean + 3σ): 6.26
+
+Number of payloads with high entropy: 16
+
+Example Character Frequency Distribution (First Payload):
+{'I': 1, 'l': 1, 'R': 1, 'E': 1, 'e': 2, '2': 2, 'T': 3, 'u': 2, 'P': 1, 'U': 2, 'r': 2, 'n': 1, 's': 3, 'A': 2, '1': 2, 'Q': 1, 'S': 4, ' ': 2}
+
+Number of payloads flagged with suspicious keywords: 2447
+
+=== Machine Learning / Clustering Analysis ===
+Isolation Forest detected 818 anomalous payloads.
+K-Means Clustering:
+Cluster counts:
+cluster
+2    42083
+0    40650
+1     1846
+
+Payloads flagged from small clusters (potential anomalies): 1846
+
+=== Signature-Based Detection ===
+Number of payloads flagged by malicious signature matching: 2447
+
+
+======================================================================
+
+--- Processing file: ../network_analysis_data2.csv ---
+
+Payload Length Statistics:
+Mean: 42.64, Median: 40.00, Std Dev: 23.77
+
+Payload Entropy Statistics:
+Mean: 3.93, Median: 3.95, Std Dev: 0.66
+
+Entropy Threshold (Mean + 3σ): 5.92
+
+Number of payloads with high entropy: 0
+
+Example Character Frequency Distribution (First Payload):
+{'e': 5, 'g': 3, 'h': 1, 'u': 4, 'i': 5, '-': 2, '/': 5, 'l': 1, 'E': 1, 'm': 2, 'p': 1, 'n': 4, 'o': 4, 'd': 4, 'c': 4, 'G': 1, 'r': 2, ' ': 1, 't': 5, 'T': 1, 's': 1, 'a': 7}
+
+Number of payloads flagged with suspicious keywords: 374
+
+=== Machine Learning / Clustering Analysis ===
+Isolation Forest detected 499 anomalous payloads.
+K-Means Clustering:
+Cluster counts:
+cluster
+0    35330
+1    33328
+2     1382
+
+Payloads flagged from small clusters (potential anomalies): 1382
+
+=== Signature-Based Detection ===
+Number of payloads flagged by malicious signature matching: 374
+
+
+======================================================================
+
+--- Processing file: ../network_analysis_data3.csv ---
+
+Payload Length Statistics:
+Mean: 46.33, Median: 55.00, Std Dev: 24.21
+
+Payload Entropy Statistics:
+Mean: 3.97, Median: 4.19, Std Dev: 0.74
+
+Entropy Threshold (Mean + 3σ): 6.20
+
+Number of payloads with high entropy: 0
+
+Example Character Frequency Distribution (First Payload):
+{'N': 1, 'F': 9, 'D': 5, 'E': 9, 'q': 1, 'C': 9, 'P': 2, 'A': 10, 'B': 2, ' ': 2}
+
+Number of payloads flagged with suspicious keywords: 908
+
+=== Machine Learning / Clustering Analysis ===
+Isolation Forest detected 1236 anomalous payloads.
+K-Means Clustering:
+Cluster counts:
+cluster
+0    70328
+1    50624
+2     2652
+
+Payloads flagged from small clusters (potential anomalies): 2652
+
+=== Signature-Based Detection ===
+Number of payloads flagged by malicious signature matching: 908
+
+
+======================================================================
+
+--- Processing file: ../network_analysis_data4.csv ---
+
+Payload Length Statistics:
+Mean: 98.26, Median: 60.00, Std Dev: 134.07
+
+Payload Entropy Statistics:
+Mean: 4.31, Median: 4.55, Std Dev: 0.70
+
+Entropy Threshold (Mean + 3σ): 6.40
+
+Number of payloads with high entropy: 28
+
+Example Character Frequency Distribution (First Payload):
+{'f': 1, 'o': 3, 't': 1, 'e': 1, 'h': 1, ')': 2, 'd': 2, 's': 2, 'b': 1, 'c': 1, 'n': 3, 'a': 3, '-': 2, '1': 1, 'y': 4}
+
+Number of payloads flagged with suspicious keywords: 858
+
+=== Machine Learning / Clustering Analysis ===
+Isolation Forest detected 1876 anomalous payloads.
+K-Means Clustering:
+Cluster counts:
+cluster
+0    152340
+2     30363
+1      5114
+
+Payloads flagged from small clusters (potential anomalies): 5114
+
+=== Signature-Based Detection ===
+Number of payloads flagged by malicious signature matching: 858
+
+
+======================================================================
+
+--- Processing file: ../network_analysis_data5.csv ---
+
+Payload Length Statistics:
+Mean: 205.83, Median: 69.00, Std Dev: 302.62
+
+Payload Entropy Statistics:
+Mean: 4.15, Median: 4.39, Std Dev: 0.72
+
+Entropy Threshold (Mean + 3σ): 6.32
+
+Number of payloads with high entropy: 299
+
+Example Character Frequency Distribution (First Payload):
+{'2': 1, 'q': 2, ';': 1, 'H': 3, 'O': 7, 'P': 8, '1': 2, 'B': 11, 'M': 4, 'E': 28, 'L': 5, 'V': 2, '!': 2, 'N': 1, 'f': 1, 'F': 25, '*': 2, 'R': 4, 'K': 1, 'U': 2, 'G': 1, 'r': 1, 'A': 28, 'S': 8, ' ': 5, 'I': 2, 't': 1, '%': 2, 'D': 12, 'T': 6, 'C': 27, '\\': 4, '3': 2, 's': 1, 'W': 3}
+
+Number of payloads flagged with suspicious keywords: 17743
+
+=== Machine Learning / Clustering Analysis ===
+Isolation Forest detected 3020 anomalous payloads.
+K-Means Clustering:
+Cluster counts:
+cluster
+2    221374
+1     49275
+0     31397
+
+Payloads flagged from small clusters (potential anomalies): 0
+
+=== Signature-Based Detection ===
+Number of payloads flagged by malicious signature matching: 17743
+
+
+======================================================================
+
+--- Processing file: ../network_analysis_data6.csv ---
+
+Payload Length Statistics:
+Mean: 87.40, Median: 51.00, Std Dev: 138.06
+
+Payload Entropy Statistics:
+Mean: 4.18, Median: 4.35, Std Dev: 0.70
+
+Entropy Threshold (Mean + 3σ): 6.27
+
+Number of payloads with high entropy: 2
+
+Example Character Frequency Distribution (First Payload):
+{'#': 1, '2': 2, 'e': 18, 'g': 3, 'h': 3, 'u': 5, 'z': 3, 'i': 20, '-': 8, 'l': 7, 'm': 31, '0': 2, 'p': 1, '!': 20, 'n': 11, 'x': 3, '$': 1, 'f': 4, 'o': 18, '"': 1, 'j': 1, 'd': 18, 'b': 8, 'r': 1, 'c': 22, 'y': 2, ' ': 1, 'v': 1, 't': 11, '%': 1, 'k': 4, 's': 4, 'a': 19, 'w': 19}
+
+Number of payloads flagged with suspicious keywords: 1202
+
+=== Machine Learning / Clustering Analysis ===
+Isolation Forest detected 2015 anomalous payloads.
+K-Means Clustering:
+Cluster counts:
+cluster
+2    185010
+0     15970
+1      4540
+
+Payloads flagged from small clusters (potential anomalies): 4540
+
+=== Signature-Based Detection ===
+Number of payloads flagged by malicious signature matching: 1202
+
+
+======================================================================

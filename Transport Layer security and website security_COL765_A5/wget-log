@@ -1,0 +1,17 @@
+--2025-04-16 17:58:27--  https://curl.se/ca/cacert.pem
+Resolving curl.se (curl.se)... 151.101.193.91, 151.101.65.91, 151.101.129.91, ...
+Connecting to curl.se (curl.se)|151.101.193.91|:443... failed: Connection timed out.
+Connecting to curl.se (curl.se)|151.101.65.91|:443... failed: Connection timed out.
+Connecting to curl.se (curl.se)|151.101.129.91|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 233263 (228K) [application/x-pem-file]
+Saving to: ‘./certs/cacert.pem’
+
+     0K .......... .......... .......... .......... .......... 21% 1.69M 0s
+    50K .......... .......... .......... .......... .......... 43% 8.76M 0s
+   100K .......... .......... .......... .......... .......... 65% 10.1M 0s
+   150K .......... .......... .......... .......... .......... 87% 11.2M 0s
+   200K .......... .......... .......                         100% 10.8M=0.05s
+
+2025-04-19 16:41:44 (4.81 MB/s) - ‘./certs/cacert.pem’ saved [233263/233263]
+

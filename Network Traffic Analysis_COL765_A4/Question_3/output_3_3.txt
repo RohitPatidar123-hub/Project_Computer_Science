@@ -1,0 +1,245 @@
+=== Suspicious Communication Patterns Consolidated Report ===
+
+=== Results for File: ../network_analysis_data1.csv ===
+
+---- Long-Duration Connections ----
+Mean Connection Duration: 16.53 seconds
+Std Dev of Duration: 105.09 seconds
+Threshold (Mean + 3*Std): 331.79 seconds
+Number of flows exceeding threshold: 223
+Sample Long-Duration Flows:
+       source     destination  duration
+192.168.5.122     224.0.0.251     840.0
+192.168.4.119 174.137.125.110     720.0
+192.168.2.109  168.144.71.202     420.0
+192.168.3.116    69.192.21.13     420.0
+192.168.3.115   66.135.200.13     360.0
+
+
+---- Multiple Protocols in Short Time ----
+For each source IP, the number of unique protocols used in each 10-minute window is calculated.
+Suspicious if count >= 3.
+Number of suspicious time windows: 50
+Sample suspicious protocol usage records:
+       source            time_bin  protocolName
+192.168.2.107 2010-06-14 21:50:00             4
+192.168.2.112 2010-06-14 17:10:00             3
+192.168.4.120 2010-06-14 07:50:00             3
+192.168.4.121 2010-06-14 07:10:00             3
+192.168.4.121 2010-06-14 19:10:00             3
+192.168.5.122 2010-06-14 01:20:00             3
+192.168.5.122 2010-06-14 01:50:00             3
+192.168.5.122 2010-06-14 02:00:00             3
+192.168.5.122 2010-06-14 03:10:00             3
+192.168.5.122 2010-06-14 05:00:00             3
+
+======================================================================
+
+=== Results for File: ../network_analysis_data2.csv ===
+
+---- Long-Duration Connections ----
+Mean Connection Duration: 15.09 seconds
+Std Dev of Duration: 65.33 seconds
+Threshold (Mean + 3*Std): 211.09 seconds
+Number of flows exceeding threshold: 447
+Sample Long-Duration Flows:
+       source   destination  duration
+192.168.2.113 192.168.5.122     240.0
+192.168.2.110 142.166.14.86     240.0
+192.168.2.110  69.192.16.80     240.0
+192.168.3.117 192.168.5.122     240.0
+192.168.2.110 142.166.14.77     300.0
+
+
+---- Multiple Protocols in Short Time ----
+For each source IP, the number of unique protocols used in each 10-minute window is calculated.
+Suspicious if count >= 3.
+Number of suspicious time windows: 21
+Sample suspicious protocol usage records:
+       source            time_bin  protocolName
+      0.0.0.0 2010-06-12 03:10:00             3
+192.168.2.107 2010-06-12 03:20:00             3
+192.168.4.121 2010-06-12 03:00:00             3
+192.168.4.121 2010-06-12 03:10:00             3
+192.168.4.121 2010-06-12 04:20:00             3
+192.168.4.121 2010-06-12 05:20:00             3
+192.168.4.121 2010-06-12 11:20:00             3
+192.168.4.121 2010-06-12 12:10:00             3
+192.168.5.122 2010-06-12 03:10:00             3
+192.168.5.122 2010-06-12 05:20:00             3
+
+======================================================================
+
+=== Results for File: ../network_analysis_data3.csv ===
+
+---- Long-Duration Connections ----
+Mean Connection Duration: 12.72 seconds
+Std Dev of Duration: 115.25 seconds
+Threshold (Mean + 3*Std): 358.48 seconds
+Number of flows exceeding threshold: 368
+Sample Long-Duration Flows:
+       source   destination  duration
+192.168.5.122   224.0.0.251   34020.0
+192.168.5.122   224.0.0.251   34020.0
+192.168.1.103 192.168.5.122     360.0
+192.168.1.103 192.168.5.122     360.0
+192.168.5.122   224.0.0.251     360.0
+
+
+---- Multiple Protocols in Short Time ----
+For each source IP, the number of unique protocols used in each 10-minute window is calculated.
+Suspicious if count >= 3.
+Number of suspicious time windows: 28
+Sample suspicious protocol usage records:
+       source            time_bin  protocolName
+192.168.1.101 2010-06-13 10:00:00             3
+192.168.1.105 2010-06-13 09:40:00             3
+192.168.1.105 2010-06-13 16:30:00             3
+192.168.1.105 2010-06-13 16:40:00             3
+192.168.2.112 2010-06-13 16:50:00             3
+192.168.4.121 2010-06-13 03:10:00             3
+192.168.4.121 2010-06-13 08:20:00             3
+192.168.4.121 2010-06-13 09:20:00             3
+192.168.4.121 2010-06-13 10:00:00             3
+192.168.4.121 2010-06-13 19:10:00             3
+
+======================================================================
+
+=== Results for File: ../network_analysis_data4.csv ===
+
+---- Long-Duration Connections ----
+Mean Connection Duration: 190.89 seconds
+Std Dev of Duration: 1392.37 seconds
+Threshold (Mean + 3*Std): 4367.99 seconds
+Number of flows exceeding threshold: 6083
+Sample Long-Duration Flows:
+       source     destination  duration
+192.168.3.117 203.183.142.113    4500.0
+192.168.2.112   69.84.133.138    4380.0
+192.168.1.101 195.189.143.147    4380.0
+192.168.1.101 195.189.143.147    4440.0
+192.168.1.101 195.189.143.147    4500.0
+
+
+---- Multiple Protocols in Short Time ----
+For each source IP, the number of unique protocols used in each 10-minute window is calculated.
+Suspicious if count >= 3.
+Number of suspicious time windows: 59
+Sample suspicious protocol usage records:
+       source            time_bin  protocolName
+192.168.4.121 2010-06-17 07:10:00             3
+192.168.4.121 2010-06-17 08:20:00             3
+192.168.4.121 2010-06-17 16:20:00             3
+192.168.4.121 2010-06-17 19:10:00             3
+192.168.5.122 2010-06-17 00:20:00             3
+192.168.5.122 2010-06-17 00:30:00             3
+192.168.5.122 2010-06-17 01:40:00             3
+192.168.5.122 2010-06-17 02:20:00             3
+192.168.5.122 2010-06-17 03:50:00             3
+192.168.5.122 2010-06-17 04:40:00             3
+
+======================================================================
+
+=== Results for File: ../network_analysis_data5.csv ===
+
+---- Long-Duration Connections ----
+Mean Connection Duration: 16.26 seconds
+Std Dev of Duration: 113.89 seconds
+Threshold (Mean + 3*Std): 357.94 seconds
+Number of flows exceeding threshold: 1058
+Sample Long-Duration Flows:
+       source    destination  duration
+192.168.2.107  80.246.149.72   13740.0
+192.168.2.107  96.238.239.35   10680.0
+192.168.2.107 220.126.251.32   14340.0
+192.168.2.107   92.126.24.44   10620.0
+192.168.2.107  67.173.154.16   14220.0
+
+
+---- Multiple Protocols in Short Time ----
+For each source IP, the number of unique protocols used in each 10-minute window is calculated.
+Suspicious if count >= 3.
+Number of suspicious time windows: 82
+Sample suspicious protocol usage records:
+       source            time_bin  protocolName
+192.168.2.107 2010-06-15 09:10:00             3
+192.168.4.121 2010-06-15 00:00:00             3
+192.168.4.121 2010-06-15 00:10:00             3
+192.168.4.121 2010-06-15 02:20:00             3
+192.168.4.121 2010-06-15 04:20:00             3
+192.168.4.121 2010-06-15 04:50:00             3
+192.168.4.121 2010-06-15 05:50:00             3
+192.168.4.121 2010-06-15 07:10:00             3
+192.168.4.121 2010-06-15 08:20:00             3
+192.168.4.121 2010-06-15 20:20:00             3
+
+======================================================================
+
+=== Results for File: ../network_analysis_data6.csv ===
+
+---- Long-Duration Connections ----
+Mean Connection Duration: 15.21 seconds
+Std Dev of Duration: 53.48 seconds
+Threshold (Mean + 3*Std): 175.64 seconds
+Number of flows exceeding threshold: 11936
+Sample Long-Duration Flows:
+       source    destination  duration
+192.168.4.118  192.168.5.122     720.0
+192.168.4.118 198.173.85.138     240.0
+192.168.4.118   115.178.18.2     240.0
+192.168.2.109 95.154.240.242     180.0
+192.168.4.119 72.247.111.188     420.0
+
+
+---- Multiple Protocols in Short Time ----
+For each source IP, the number of unique protocols used in each 10-minute window is calculated.
+Suspicious if count >= 3.
+Number of suspicious time windows: 97
+Sample suspicious protocol usage records:
+       source            time_bin  protocolName
+192.168.3.117 2010-06-16 09:50:00             3
+192.168.4.120 2010-06-16 14:00:00             3
+192.168.4.121 2010-06-16 07:10:00             3
+192.168.4.121 2010-06-16 19:10:00             3
+192.168.5.122 2010-06-16 00:00:00             3
+192.168.5.122 2010-06-16 00:10:00             3
+192.168.5.122 2010-06-16 00:40:00             3
+192.168.5.122 2010-06-16 01:00:00             3
+192.168.5.122 2010-06-16 01:10:00             3
+192.168.5.122 2010-06-16 01:20:00             3
+
+======================================================================
+
+=== Combined Data Analysis for All CSV Files ===
+
+---- Long-Duration Connections (Combined Data) ----
+Mean Connection Duration: 48.99 seconds
+Std Dev of Duration: 619.77 seconds
+Threshold (Mean + 3*Std): 1908.29 seconds
+Number of flows exceeding threshold: 7628
+Sample Long-Duration Flows:
+       source     destination  duration
+192.168.2.112  131.202.243.84    5220.0
+192.168.4.119 213.218.147.118    2520.0
+192.168.2.107 142.167.205.195    2820.0
+192.168.2.107   80.246.149.72    7440.0
+192.168.2.107   96.238.239.35    7440.0
+
+
+---- Multiple Protocols in Short Time (Combined Data) ----
+Suspicious if count >= 3.
+Number of suspicious time windows: 337
+Sample suspicious protocol usage records:
+       source            time_bin  protocolName
+      0.0.0.0 2010-06-12 03:10:00             3
+192.168.1.101 2010-06-13 10:00:00             3
+192.168.1.105 2010-06-13 09:40:00             3
+192.168.1.105 2010-06-13 16:30:00             3
+192.168.1.105 2010-06-13 16:40:00             3
+192.168.2.107 2010-06-12 03:20:00             3
+192.168.2.107 2010-06-14 21:50:00             4
+192.168.2.107 2010-06-15 09:10:00             3
+192.168.2.112 2010-06-13 16:50:00             3
+192.168.2.112 2010-06-14 17:10:00             3
+
+======================================================================
